@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="clsBussinessLayer/clsBussinessLayer.csproj" Id="059179de-7fb9-4380-b297-9d69ed7e2c4e" />
+  <Project Path="clsDataAccessLayer/clsDataAccessLayer.csproj" Id="3844c934-634c-4908-9fbf-0a266a103db8" />
+  <Project Path="Library Management System/Library Management System.csproj" Id="e67dd9d9-5b26-417c-a85e-10984eb691b5" />
+</Solution>
