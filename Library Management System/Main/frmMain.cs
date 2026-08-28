@@ -22,8 +22,8 @@ namespace Library_Management_System
 
         private void OpenFormInsidePanel(Form childForm)
         {
-            if (_activeForm != null)
-                _activeForm.Close();
+            //if (_activeForm != null)
+            //    _activeForm.Close();
 
             _activeForm = childForm;
 
@@ -31,7 +31,7 @@ namespace Library_Management_System
             childForm.FormBorderStyle = FormBorderStyle.None;
             childForm.Dock = DockStyle.Fill;
 
-            pnlMain.Controls.Clear();
+            //pnlMain.Controls.Clear();
             pnlMain.Controls.Add(childForm);
 
             childForm.BringToFront();
